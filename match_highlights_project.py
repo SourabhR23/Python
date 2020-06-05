@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 from moviepy.editor import *
 import os
 import pandas as pd
@@ -206,4 +200,3 @@ if __name__ == "__main__":
     final_output(final_clip, video_name)
     # Runs to clean our temporary files in output folder
     clean_files(final_save_path)
-
