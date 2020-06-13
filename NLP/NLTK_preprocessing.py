@@ -7,6 +7,10 @@ import unicodedata
 import nltk
 import re
 
+nltk.download('wordnet')
+nltk.download('words')
+nltk.download('stopwords')
+
 class NLTK_preprocessing():
 
     def __init__(self, text):
