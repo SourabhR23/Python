@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 from random import randint
 
 def game():
@@ -52,4 +46,3 @@ def again():
         again()
 
 game()    
-
